@@ -1,8 +1,8 @@
 # Ask Your Question React App
 
-## Frontend Repo
+## Backend Repo
 
-Frontend repo of project is [here](https://github.com/omerjava/askYourQuestionSpringApp).
+Backend repo of project is [here](https://github.com/omerjava/askYourQuestionSpringApp).
 
 ## Getting Started with Create React App
 
