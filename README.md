@@ -9,6 +9,9 @@ This is a React-Java Spring-MySQL project. This web app allows to
    - to create, edit and delete a comment to any post if logged in
    - to read all comments of a post by any website visitor.
 
+## Screenshot of Landing Page
+[Screenshot of Landing Page](https://user-images.githubusercontent.com/87907988/181295743-e2e9ac5a-c0b0-418a-8e4a-ce8881ceb261.png)
+
 ## Backend Repo
 
 Backend repo of project is [here](https://github.com/omerjava/askYourQuestionSpringApp).
