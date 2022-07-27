@@ -1,0 +1,113 @@
+.commentCard {
+    padding: 0px 20px;
+    margin: 10px;
+    border: 1px solid rgb(194, 194, 196);
+}
+
+.commentCard .common {
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid rgb(164, 164, 173);
+}
+
+.commentCard .commentHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: brown;
+    font-weight: 500;
+}
+
+.commentCard .commentFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(53, 51, 47);
+    border-radius: 10px;
+}
+
+.commentCard .btnCommentCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.commentCard .dateComment {
+    font-size: small;
+    color: rgb(222, 220, 215);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.commentCard form button:hover {
+    background-color: rgb(179, 190, 194);
+}
+
+.commentCard .edit {
+    display: block;
+    margin-right: 5px;
+    border: 1px silver solid;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.commentCard .no-edit {
+    display: none;
+}
+
+.commentCard .edit:hover {
+    cursor: pointer;  
+    background-color: rgb(223, 238, 251);
+}
+
+.commentCard .delete {
+    display: block;
+    border: 1px silver solid;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.commentCard .no-delete {
+    display: none;
+}
+
+
+.commentCard .delete:hover {
+    cursor: pointer; 
+    background-color: rgb(223, 238, 251); 
+}
+
+.commentCard .commentEditForm {
+    display: block;
+}
+
+.commentCard .no-commentEditForm {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .commentCard {
+        margin: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .commentCard {
+        margin: 10px 5px;
+    }
+
+    .commentCard .commentFooter {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .commentCard .dateComment {
+        margin-top: 5px;
+    }
+  }

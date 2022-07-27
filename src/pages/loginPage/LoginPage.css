@@ -1,0 +1,30 @@
+.login form {
+    padding: 30px 50px;
+    margin: 70px 30%;
+    border: 1px solid rgb(20, 20, 37);
+    border-radius: 10px;
+}
+
+.login form input {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(20, 20, 37);
+    border-radius: 5px;
+    width: 70%;
+}
+
+@media only screen and (max-width: 800px) {
+    .login form {
+        margin: 50px 10%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .login form {
+        margin: 10px 2%;
+    }
+    
+    .login form input {
+        width: 80%;
+    }
+  }

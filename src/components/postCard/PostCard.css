@@ -1,0 +1,124 @@
+.postCard {
+    padding: 10px 20px;
+    margin: 0px 20%;
+    border: 1px solid rgb(194, 194, 196);
+    background-color: rgb(122, 130, 140);
+}
+
+.postCard .common {
+    padding: 10px;
+    margin: 2px;
+    border-bottom: 1px solid rgb(164, 164, 173);
+}
+
+.postCard .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: brown;
+    font-weight: 500;
+    background-color: rgb(198, 198, 161);
+    border-radius: 10px;
+}
+
+.postCard .body {
+    font-size: small;
+    color: rgb(10, 10, 10);
+    font-weight: 500;
+    background-color: rgb(198, 198, 161);
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.postCard .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(198, 198, 161);
+    border-radius: 10px;
+}
+
+.postCard .datePost {
+    font-size: small;
+    color: rgb(71, 71, 71);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.postCard .btn {
+    border: 1px silver solid;
+    margin: 1px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.postCard .buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.postCard .no-edit {
+    display: none;
+}
+
+.postCard .no-delete {
+    display: none;
+}
+
+.postCard .btn:hover {
+    cursor: pointer;  
+    background-color: rgb(223, 238, 251);
+}
+
+.postCard .commentForm {
+    display: block;
+}
+
+.postCard .no-commentForm {
+    display: none;
+}
+
+.postCard .editPostForm {
+    display: block;
+}
+
+.postCard .no-editPostForm {
+    display: none;
+}
+
+.postCard .commentList {
+    display: block;
+    background-color: rgb(223, 224, 224);
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+
+.postCard .no-commentList {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .postCard {
+        margin: 10px 10%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .postCard {
+        margin: 10px 2%;
+    }
+
+    .postCard .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .postCard .buttons {
+        padding: 5px;
+    }
+  }

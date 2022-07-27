@@ -1,0 +1,50 @@
+.postForm form {
+    padding: 10px 20px;
+    margin: 10px 20%;
+    border: 2px solid rgb(181, 176, 154);
+    border-radius: 5px;
+    background-color: rgb(52, 64, 74);
+}
+
+.postForm form input {
+    padding: 10px;
+    margin: 5px;
+    border: 0px solid rgb(20, 20, 37);
+    border-radius: 5px;
+    width: 70%;
+}
+
+.postForm form button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(20, 20, 37);
+    border-radius: 5px;
+    width: 75%;
+    background-color: rgb(151, 168, 177);
+}
+
+.postForm form button:hover {
+    background-color: rgb(179, 190, 194);
+    cursor: pointer;
+}
+
+.postForm .errorPostForm {
+    padding: 5px;
+    color: rgb(214, 209, 212);
+}
+
+@media only screen and (max-width: 800px) {
+    .postForm form {
+        margin: 10px 10%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .postForm form {
+        margin: 10px 2%;
+    }
+    
+    .postForm form input {
+        width: 80%;
+    }
+  }

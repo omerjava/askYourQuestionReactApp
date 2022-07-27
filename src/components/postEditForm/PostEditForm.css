@@ -1,0 +1,43 @@
+.postEditForm form {
+    padding: 0px 20px;
+    margin: 10px 10%;
+    border: 1px solid rgb(194, 194, 196);
+}
+
+.postEditForm form input {
+    padding: 10px;
+    margin: 5px;
+    border: 0px solid rgb(20, 20, 37);
+    border-bottom: 2px solid rgb(20, 20, 37);
+    width: 70%;
+}
+
+.postEditForm form button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(20, 20, 37);
+    border-radius: 5px;
+    width: 75%;
+    background-color: rgb(151, 168, 177);
+}
+
+.postEditForm form button:hover {
+    background-color: rgb(179, 190, 194);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .postEditForm form {
+        margin: 10px 10%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .postEditForm form {
+        margin: 10px 2%;
+    }
+    
+    .postEditForm form input {
+        width: 80%;
+    }
+  }
