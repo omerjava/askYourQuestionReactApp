@@ -10,7 +10,7 @@ This is a React-Java Spring-MySQL project. This web app allows to
    - to read all comments of a post by any website visitor.
 
 ## Screenshot of Landing Page
-[Screenshot of Landing Page](https://user-images.githubusercontent.com/87907988/181295743-e2e9ac5a-c0b0-418a-8e4a-ce8881ceb261.png)
+![Screenshot of Landing Page](https://user-images.githubusercontent.com/87907988/181295743-e2e9ac5a-c0b0-418a-8e4a-ce8881ceb261.png)
 
 ## Backend Repo
 
